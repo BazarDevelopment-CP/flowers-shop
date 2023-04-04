@@ -1,0 +1,75 @@
+2023-03-25T21:23:39+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Term::get_id() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:76
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 76
+
+2023-03-25T21:25:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_thumbnail() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:76
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 76
+
+2023-03-25T21:26:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_thumbnail() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:76
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 76
+
+2023-03-25T21:27:47+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_thumbnail_id() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:76
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 76
+
+2023-03-25T21:32:00+00:00 CRITICAL Uncaught Error: Call to undefined function pre() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:74
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 74
+
+2023-03-25T21:32:11+00:00 CRITICAL Uncaught Error: Call to undefined function pre() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:74
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 74
+
+2023-03-25T21:44:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_term_name() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:78
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 78
+
+2023-03-25T21:45:32+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php:78
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#3 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 78
+
+2023-03-25T21:58:31+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, null given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php on line 78 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php(78): full_term_name(NULL)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#4 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-25T22:45:43+00:00 CRITICAL syntax error, unexpected '', expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/contacts.php on line 42
+

@@ -1,0 +1,23 @@
+2023-03-31T09:38:16+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1683): wc_get_template('single-product/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): woocommerce_show_product_sale_flash('')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-single-product.php(7): do_action('woocommerce_bef...')
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plu in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php on line 25
+
+2023-03-31T11:12:09+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product/short-description.php on line 4
+
+2023-03-31T16:18:14+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php:25
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/checkout.php(135): wc_get_template('checkout/form-c...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php on line 25
+

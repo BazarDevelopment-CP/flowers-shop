@@ -1,0 +1,209 @@
+[23-Mar-2023 10:21:51 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[23-Mar-2023 10:30:14 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[24-Mar-2023 15:31:58 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[24-Mar-2023 15:58:41 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[24-Mar-2023 16:10:22 UTC] PHP Notice:  Undefined index: settings_tab_demo in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/react-admin/connect-existing-pages.php on line 91
+[24-Mar-2023 16:10:24 UTC] PHP Notice:  Undefined index: settings_tab_demo in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/react-admin/connect-existing-pages.php on line 91
+[24-Mar-2023 16:13:03 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[24-Mar-2023 16:13:42 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[24-Mar-2023 16:13:43 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[24-Mar-2023 16:14:53 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[24-Mar-2023 22:35:52 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[27-Mar-2023 07:55:32 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[27-Mar-2023 11:53:13 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-customize-widgets.php on line 900
+[29-Mar-2023 14:44:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_instance_option_key() on bool in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:2963
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_AJAX::shipping_zone_methods_save_changes('')
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-admin/admin-ajax.php(188): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 2963
+[29-Mar-2023 14:48:26 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:48:31 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:48:45 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:48:45 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:49:21 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:49:31 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:49:55 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:49:59 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:50:04 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:50:33 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:50:39 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:51:12 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:52:00 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:52:08 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:52:49 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:52:54 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:52:57 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:53:05 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:53:43 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:53:48 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:54:24 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:54:29 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:55:01 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 14:55:07 UTC] PHP Warning:  Use of undefined constant Local_Shipping_Method - assumed 'Local_Shipping_Method' (this will throw an Error in a future version of PHP) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 60
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:08:02 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Illegal string offset 'default' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:09:01 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php on line 78
+[29-Mar-2023 17:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Courier_Shipping_Method::parent() in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php:33
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php(25): Courier_Shipping_Method->init_instance_settings()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php(18): Courier_Shipping_Method->init()
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php(185): Courier_Shipping_Method->__construct('12')
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php(36): WC_Shipping_Zone->get_shipping_methods(false, 'admin')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Shipping/ShippingController.php(199): WC_Shipping_Zones::get_zones('admin')
+#5 /home/bazardot/fshop.jokeit.io/w in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 33
+[29-Mar-2023 20:30:39 UTC] PHP Notice:  Undefined offset: 12 in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php on line 190
+[29-Mar-2023 20:30:39 UTC] PHP Notice:  Undefined offset: 12 in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php on line 190
+[29-Mar-2023 20:30:39 UTC] PHP Notice:  Undefined offset: 12 in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php on line 200
+[29-Mar-2023 20:30:39 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php on line 200
+[29-Mar-2023 20:30:39 UTC] PHP Notice:  Undefined property: stdClass::$method_order in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1776
+[29-Mar-2023 22:33:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Courier_Shipping_Method::define_hooks() in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php:19
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php(185): Courier_Shipping_Method->__construct('12')
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php(36): WC_Shipping_Zone->get_shipping_methods(false, 'admin')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Shipping/ShippingController.php(199): WC_Shipping_Zones::get_zones('admin')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\Shipping\ShippingController->hydrate_client_settings('woocommerce_pag...')
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.p in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 19
+[30-Mar-2023 11:19:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Courier_Shipping' not found in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/courier-shipping.php:15
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(453): include_once()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-admin/admin-ajax.php(22): require_once('/home/bazardot/...')
+#4 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/courier-shipping.php on line 15
+[30-Mar-2023 11:19:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Courier_Shipping' not found in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/courier-shipping.php:15
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(453): include_once()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-admin/admin.php(34): require_once('/home/bazardot/...')
+#4 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/courier-shipping.php on line 15
+[30-Mar-2023 11:49:44 UTC] PHP Fatal error:  Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:76
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(591): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-admin/admin.php(34): require_once('/home/bazardot/...')
+#4 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 76
+[30-Mar-2023 11:51:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:51:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:51:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:51:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:51:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:52:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:52:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:52:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:52:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 11:52:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+[30-Mar-2023 12:18:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Courier_Shipping' not found in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/courier-shipping.php:15
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(453): include_once()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-admin/admin.php(34): require_once('/home/bazardot/...')
+#4 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/courier-shipping.php on line 15
+[31-Mar-2023 16:07:54 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `fshop_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set, update_option
+[31-Mar-2023 16:07:54 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT COUNT(DISTINCT claim_id) FROM fshop_actionscheduler_actions WHERE claim_id != 0 AND status IN ( 'pending', 'in-progress') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_AsyncRequest_QueueRunner->maybe_dispatch, ActionScheduler_AsyncRequest_QueueRunner->allow, ActionScheduler_Abstract_QueueRunner->has_maximum_concurrent_batches, ActionScheduler_DBStore->get_claim_count
+[31-Mar-2023 16:07:54 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT a.action_id FROM fshop_actionscheduler_actions a WHERE 1=1 AND a.status IN ('pending') AND a.scheduled_date_gmt <= '2023-03-31 16:07:54' LIMIT 0, 5 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_AsyncRequest_QueueRunner->maybe_dispatch, ActionScheduler_AsyncRequest_QueueRunner->allow, ActionScheduler_Store->has_pending_actions_due, ActionScheduler_DBStore->query_actions
+[01-Apr-2023 10:46:51 UTC] PHP Notice:  Undefined variable: changed_stock in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 1304
+[02-Apr-2023 16:15:24 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'TEXT_REGEX' in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:73
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_Theme->handle_forms('')
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-settings.php(623): do_action('init')
+#4 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#6 /home/bazardot/fshop.jokeit.io/wp-admin/admin-ajax.php(22): require_once('/home/bazardot/...')
+#7 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 73

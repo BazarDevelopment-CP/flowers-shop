@@ -1,0 +1,193 @@
+2023-04-03T10:44:00+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:96
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(591): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 96
+
+2023-04-03T11:15:09+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:15:15+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:15:36+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:19:55+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:23:23+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:24:06+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:25:17+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:25:43+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:26:00+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:26:08+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:27:26+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:28:32+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T11:28:43+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php:26
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', false, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php(56): get_template_part('woocommerce/che...')
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php(62): get_template_part_data('woocommerce/che...')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_to_cart_fragments(Array)
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocomm in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/checkout/review-order.php on line 26
+
+2023-04-03T15:07:07+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:96
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(591): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 96
+
+2023-04-03T15:12:15+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:96
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(591): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 96
+
+2023-04-03T15:12:17+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:96
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(591): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 96
+
+2023-04-03T15:20:02+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:96
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(591): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 96
+

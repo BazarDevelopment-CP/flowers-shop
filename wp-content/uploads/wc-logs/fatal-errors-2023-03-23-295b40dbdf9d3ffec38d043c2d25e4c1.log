@@ -1,0 +1,45 @@
+2023-03-23T10:36:17+00:00 CRITICAL Uncaught Error: Call to undefined function blogingo() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/header.php:44
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(783): require_once()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', true, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php(1): get_header('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#6 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#7 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/header.php on line 44
+
+2023-03-23T10:36:23+00:00 CRITICAL Uncaught Error: Call to undefined function blogingo() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/header.php:44
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(783): require_once()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', true, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php(1): get_header('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#6 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#7 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/header.php on line 44
+
+2023-03-23T10:51:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_Theme::nav_menu_css_classes(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:46
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(310): SOVA_Theme->nav_menu_css_classes(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/class-walker-nav-menu.php(158): apply_filters('nav_menu_css_cl...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-walker.php(147): Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/nav-menu-template.php(622): Walker->wal in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 46
+
+2023-03-23T10:56:23+00:00 CRITICAL Uncaught Error: Call to undefined function sova_custom_logo() in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/header.php:46
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(783): require_once()
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(718): load_template('/home/bazardot/...', true, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/front-page.php(1): get_header('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#6 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#7 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/header.php on line 46
+

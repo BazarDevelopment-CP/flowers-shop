@@ -1,0 +1,173 @@
+2023-03-27T09:33:03+00:00 CRITICAL Out of memory (allocated 815792128) (tried to allocate 803213312 bytes) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 23
+
+2023-03-27T09:33:59+00:00 CRITICAL Out of memory (allocated 815792128) (tried to allocate 803213312 bytes) in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 12
+
+2023-03-27T09:39:42+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:47:54+00:00 CRITICAL syntax error, unexpected ')' in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 19
+
+2023-03-27T09:47:55+00:00 CRITICAL syntax error, unexpected ')' in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 19
+
+2023-03-27T09:54:41+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:54:47+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:54:53+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:54:58+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:55:36+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:55:39+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:55:40+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T09:58:12+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to full_term_name() must be of the type int, object given, called in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 9 and defined in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php:27
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php(9): full_term_name(Object(WP_Term))
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#6 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/functions.php on line 27
+
+2023-03-27T10:09:01+00:00 CRITICAL require_once(): Failed opening required '/home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 72
+
+2023-03-27T11:16:31+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:73
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(585): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 73
+
+2023-03-27T12:52:59+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:73
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(585): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 73
+
+2023-03-27T13:42:28+00:00 CRITICAL syntax error, unexpected '=', expecting ']' in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product/add-to-cart/variable.php on line 27
+
+2023-03-27T17:04:46+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php:67
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-attribute.php(22): wc_get_template('archive-product...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 67
+
+2023-03-27T17:28:31+00:00 CRITICAL Uncaught Error: Call to a member function name() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-single-product.php:38
+Stack trace:
+#0 [internal function]: {closure}('Flower \xE2\x84\x961')
+#1 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-single-product.php(39): array_map(Object(Closure), Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/bazardot/...', false)
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product.php(6): wc_get_template_part('content', 'single-product')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#6 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/... in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-single-product.php on line 38
+
+2023-03-27T17:29:10+00:00 CRITICAL Uncaught Error: Call to a member function name() on null in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-single-product.php:39
+Stack trace:
+#0 [internal function]: {closure}('Flower \xE2\x84\x961')
+#1 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-single-product.php(40): array_map(Object(Closure), Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/bazardot/...', false)
+#4 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product.php(6): wc_get_template_part('content', 'single-product')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#6 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/... in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-single-product.php on line 39
+
+2023-03-27T21:43:27+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php:39
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/template-loader.php(106): include('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(19): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/archive-product.php on line 39
+

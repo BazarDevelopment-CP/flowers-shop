@@ -1,0 +1,72 @@
+2023-04-02T16:15:24+00:00 CRITICAL Uncaught Error: Undefined class constant 'TEXT_REGEX' in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:73
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_Theme->handle_forms('')
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-settings.php(623): do_action('init')
+#4 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#6 /home/bazardot/fshop.jokeit.io/wp-admin/admin-ajax.php(22): require_once('/home/bazardot/...')
+#7 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 73
+
+2023-04-02T22:28:57+00:00 CRITICAL Uncaught Error: Cannot access protected property Google_Maps_Distance_Exception::$message in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php:74
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php(53): Courier_Shipping_Method->distance('98500')
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): Courier_Shipping_Method->calculate_shipping(Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#4 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1423): WC_Shipping->calculate_shipping(Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-c in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 74
+
+2023-04-02T23:03:10+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:03:14+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:03:17+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:03:23+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:03:25+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:03:26+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:03:27+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:04:01+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 69
+
+2023-04-02T23:04:04+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 69
+
+2023-04-02T23:04:07+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 69
+
+2023-04-02T23:04:11+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 69
+
+2023-04-02T23:05:02+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:05:03+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:05:34+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:05:37+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:07:32+00:00 CRITICAL A function with return type must return a value in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 81
+
+2023-04-02T23:08:51+00:00 CRITICAL Uncaught TypeError: Return value of Courier_Shipping_Method::distance() must be of the type int, null returned in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php:81
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php(53): Courier_Shipping_Method->distance('98500')
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): Courier_Shipping_Method->calculate_shipping(Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#4 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1423): WC_Shipping->calculate_shipping(Array)
+#5 /home/bazardot in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 81
+
+2023-04-02T23:09:16+00:00 CRITICAL syntax error, unexpected '|', expecting ';' or '{' in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 71
+
+2023-04-02T23:19:56+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Courier_Shipping_Method::shipping_price() must be of the type int, null given, called in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 54 and defined in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php:79
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php(54): Courier_Shipping_Method->shipping_price(NULL)
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): Courier_Shipping_Method->calculate_shipping(Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#4 /ho in /home/bazardot/fshop.jokeit.io/wp-content/plugins/courier-shipping/includes/courier-shipping-method.php on line 79
+

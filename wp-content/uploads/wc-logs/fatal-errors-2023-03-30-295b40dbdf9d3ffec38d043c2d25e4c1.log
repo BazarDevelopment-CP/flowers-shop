@@ -1,0 +1,105 @@
+2023-03-30T09:27:57+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product/product-thumbnails.php on line 13
+
+2023-03-30T09:28:05+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product/product-thumbnails.php on line 13
+
+2023-03-30T09:28:11+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product/product-thumbnails.php on line 13
+
+2023-03-30T11:49:44+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:76
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(591): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-admin/admin.php(34): require_once('/home/bazardot/...')
+#4 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 76
+
+2023-03-30T11:51:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:51:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:51:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:51:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:51:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:52:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:52:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:52:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:52:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+
+2023-03-30T11:52:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SOVA_WC::add_products_settings(), 1 passed in /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php:59
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->add_products_settings(Array)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(156): apply_filters('woocommerce_get...', Array)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(182): WC_Settings_Page->get_sections()
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): WC_Settings_Page->output_sections('')
+#5 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_ in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/wc-functions.php on line 59
+

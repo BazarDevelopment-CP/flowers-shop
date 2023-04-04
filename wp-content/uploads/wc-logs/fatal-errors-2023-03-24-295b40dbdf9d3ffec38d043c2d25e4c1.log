@@ -1,0 +1,76 @@
+2023-03-24T16:55:47+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1683): wc_get_template('single-product/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): woocommerce_show_product_sale_flash('')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/content-single-product.php(43): do_action('woocommerce_bef...')
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/wp-content in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php on line 25
+
+2023-03-24T18:31:00+00:00 CRITICAL syntax error, unexpected end of file in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product/title.php on line 3
+
+2023-03-24T19:16:35+00:00 CRITICAL Uncaught Error: Class 'SOVA_WC' not found in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php:74
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-settings.php(585): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-config.php(96): require_once('/home/bazardot/...')
+#2 /home/bazardot/fshop.jokeit.io/wp-load.php(50): require_once('/home/bazardot/...')
+#3 /home/bazardot/fshop.jokeit.io/wp-blog-header.php(13): require_once('/home/bazardot/...')
+#4 /home/bazardot/fshop.jokeit.io/index.php(17): require('/home/bazardot/...')
+#5 {main}
+  thrown in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/functions.php on line 74
+
+2023-03-24T19:22:53+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/woocommerce.php:49
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): SOVA_WC->gallery_image_html_attachment_image_params(Array, '98', 'woocommerce_sin...', true)
+#1 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1593): apply_filters('woocommerce_gal...', Array, '98', 'woocommerce_sin...', true)
+#3 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/single-product/product-image.php(22): wc_get_gallery_image_html('98', true)
+#4 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bazardot/...')
+#5 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1556): wc_get_template('single-product/... in /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/includes/woocommerce.php on line 49
+
+2023-03-24T22:56:22+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1414): wc_get_template('loop/sale-flash...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): woocommerce_show_product_loop_sale_flash('')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-product.php(8): do_action('woocommerce_bef...')
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommer in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2023-03-24T22:56:34+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1414): wc_get_template('loop/sale-flash...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): woocommerce_show_product_loop_sale_flash('')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-product.php(8): do_action('woocommerce_bef...')
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommer in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2023-03-24T22:56:55+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1414): wc_get_template('loop/sale-flash...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): woocommerce_show_product_loop_sale_flash('')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-product.php(8): do_action('woocommerce_bef...')
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommer in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2023-03-24T22:58:53+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1414): wc_get_template('loop/sale-flash...')
+#2 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(308): woocommerce_show_product_loop_sale_flash('')
+#3 /home/bazardot/fshop.jokeit.io/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /home/bazardot/fshop.jokeit.io/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bazardot/fshop.jokeit.io/wp-content/themes/flowers/woocommerce/content-product.php(8): do_action('woocommerce_bef...')
+#6 /home/bazardot/fshop.jokeit.io/wp-includes/template.php(785): require('/home/bazardot/...')
+#7 /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommer in /home/bazardot/fshop.jokeit.io/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
