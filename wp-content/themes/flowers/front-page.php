@@ -4,7 +4,7 @@
     <div class="container">
         <h1 class="hero-title"><?php echo carbon_get_the_post_meta( 'home_top_title' ) ?></h1>
         <p class="text">
-            <?php echo carbon_get_the_post_meta( 'home_top_subtitle' ) ?>
+            <?php echo carbon_get_the_post_meta( 'home_top_subtitle' ) ?>f
         </p>
         <div class="hero-btn">
             <a href="<?php the_permalink( wc_get_page_id( 'shop' ) ) ?>" class="btn"><?php _e( 'Look at the products' ) ?></a>
