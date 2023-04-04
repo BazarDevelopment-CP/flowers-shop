@@ -1,7 +1,7 @@
 <?php get_header( '', [ 'title' => get_the_title() ] ) ?>
 
 <main class="hero" style="background-image: url('<?php echo wp_get_attachment_image_url( carbon_get_the_post_meta( 'home_top_bgimage' ), 'full' ) ?>')">
-s
+
 <div class="container">
         <h1 class="hero-title"><?php echo carbon_get_the_post_meta( 'home_top_title' ) ?></h1>
         <p class="text">
