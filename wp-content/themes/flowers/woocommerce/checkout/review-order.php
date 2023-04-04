@@ -1,4 +1,4 @@
-<li class="step-item shop_table ">
+<li class="step-item shop_table woocommerce-checkout-review-order-table">
     <div class="step-top " id="step-3">
         <p class="step-num">3</p>
         <h2 class="section-title"><?php echo carbon_get_post_meta( wc_get_page_id( 'checkout' ), 'checkout_shipping_title' ) ?></h2>
