@@ -44,7 +44,6 @@
             <p class="text">
                 <?php echo carbon_get_the_post_meta( 'home_about_text' ) ?>
             </p>
-            ffdfdff
             <a href="<?php the_permalink( 128 ) ?>" class="btn"><?php _e( 'Learn more' ) ?></a>
         </div>
         <div class="photo-flex">
