@@ -13,6 +13,6 @@ if ($signature != ($_SERVER['HTTP_X_HUB_SIGNATURE'] ?? '')) {
 /*
 push event
 */
-$dir = '/home/bazardot/deploy.jokeit.io';
+$dir = '/home/bazardot/fshop.jokeit.io';
 exec("cd $dir && git pull 2>&1", $output);
 print_r($output);
