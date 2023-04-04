@@ -6,6 +6,7 @@
         <p class="text">
             <?php echo carbon_get_the_post_meta( 'home_top_subtitle' ) ?>
         </p>
+        d
         <div class="hero-btn">
             <a href="<?php the_permalink( wc_get_page_id( 'shop' ) ) ?>" class="btn"><?php _e( 'Look at the products' ) ?></a>
             <a href="#contact-us" class="btn"><?php _e( 'Ask a question' ) ?></a>
