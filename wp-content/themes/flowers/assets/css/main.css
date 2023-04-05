@@ -109,7 +109,7 @@ button {
   object-fit: cover;
 }
 
-.button-prev,
+/* .button-prev,
 .button-next {
   background-color: #ffffff;
   position: absolute;
@@ -157,7 +157,7 @@ button {
 .button-prev:active {
   transform: translateX(-105%) scale(0.95);
   opacity: 0.8;
-}
+} */
 
 .photo-card {
   height: 254px;
@@ -985,6 +985,7 @@ header {
   bottom: 0;
   padding: 12px 24px;
   border-radius: 36px;
+  background-color: #fff;
 }
 /* Стрелка влево */
 .slick-arrow.slick-prev {
