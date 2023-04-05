@@ -13,6 +13,9 @@ if ($(".home-works .swiper").length) {
         .find(".button-prev")[0],
     },
     breakpoints: {
+      500: {
+        slidesPerView: 2,
+      },
       744: {
         slidesPerView: 3,
       },
