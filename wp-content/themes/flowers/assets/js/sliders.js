@@ -2,10 +2,7 @@ if ($(".home-works .swiper").length) {
   const swiper = new Swiper(".home-works .swiper", {
     slidesPerView: 1,
     watchOverflow: true,
-    loop: false,
-    grid: {
-      rows: 3,
-    },
+    loop: true,
     spaceBetween: 16,
     navigation: {
       nextEl: $(".home-works .swiper")
@@ -17,9 +14,6 @@ if ($(".home-works .swiper").length) {
     },
     breakpoints: {
       744: {
-        grid: {
-          rows: 1,
-        },
         slidesPerView: 3,
       },
     },
@@ -29,10 +23,7 @@ if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
     slidesPerView: 1,
     watchOverflow: true,
-    loop: false,
-    grid: {
-      rows: 3,
-    },
+    loop: true,
     spaceBetween: 16,
     navigation: {
       nextEl: $(".reviews .swiper")
@@ -44,9 +35,6 @@ if ($(".reviews .swiper").length) {
     },
     breakpoints: {
       744: {
-        grid: {
-          rows: 1,
-        },
         slidesPerView: 3,
       },
     },
@@ -56,6 +44,7 @@ if ($(".gallery-swiper .swiper").length) {
   const swiper = new Swiper(".gallery-swiper .swiper", {
     slidesPerView: 1,
     spaceBetween: 16,
+    loop: true,
     navigation: {
       nextEl: $(".gallery-swiper .swiper")
         .closest(".swiper-container")
