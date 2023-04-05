@@ -987,12 +987,12 @@ header {
 }
 /* Стрелка влево */
 .slick-arrow.slick-prev {
-  left: 45%;
+  left: 49%;
   transform: translatex(-100%);
 }
 /* Стрелка вправо */
 .slick-arrow.slick-next {
-  right: 45%;
+  right: 49%;
   transform: translatex(100%);
 }
 /* Стрелка не активная */
