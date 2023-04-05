@@ -766,10 +766,6 @@ header {
   position: relative;
   padding-bottom: 55px;
 }
-.home-works .swiper {
-  height: 1120px;
-}
-
 .home-works .swiper-slide {
   background-color: #ffffff;
   border-radius: 16px;
