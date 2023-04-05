@@ -26,6 +26,14 @@ $(".slider").slick({
   slidesToShow: 3,
   autoplay: true,
   autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
 });
 if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
