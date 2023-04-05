@@ -66,7 +66,26 @@
         <p class="text">
             <?php echo carbon_get_the_post_meta( 'home_bouquets_subtitle' ) ?>
         </p>
-        <div class="swiper-container">
+         <div class="slider-container">
+                <div class="slider">
+                    <?php
+                    $prod_cats = get_terms( 'product_cat' );
+
+                    foreach ( $prod_cats as $prod_cat ): ?>
+                    <div class="swiper-slide">
+                        <img src="<?php echo wp_get_attachment_image_url( get_term_meta( $prod_cat->term_id, 'thumbnail_id', true ), 'medium_large' ) ?>" alt="" />
+                        <div class="slide-card">
+                            <h3><?php echo full_term_name( $prod_cat->term_id ) ?></h3>
+                            <p class="text"><?php echo $prod_cat->description ?></p>
+                            <a href="<?php echo get_term_link( $prod_cat->term_id )  ?>" class="btn"><?php _e( 'Choose a bouquet' ) ?></a>
+                        </div>
+                    </div>
+                    <?php endforeach ?>
+                </div>
+            <div class="button-next"><?php _e( 'Next' ) ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/Right.svg" alt="arrow" /></div>
+            <div class="button-prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Left.svg" alt="arrow" /><?php _e( 'Back' ) ?></div>
+        </div>
+        <!-- <div class="swiper-container">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     
@@ -88,7 +107,7 @@
             </div>
             <div class="button-next"><?php _e( 'Next' ) ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/Right.svg" alt="arrow" /></div>
             <div class="button-prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Left.svg" alt="arrow" /><?php _e( 'Back' ) ?></div>
-        </div>
+        </div> -->
     </div>
 </section>
 
