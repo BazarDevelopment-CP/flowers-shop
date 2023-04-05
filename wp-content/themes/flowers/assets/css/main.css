@@ -988,12 +988,12 @@ header {
 /* Стрелка влево */
 .slick-arrow.slick-prev {
   left: 40%;
-  transform: translatey(100%);
+  transform: translatex(100%);
 }
 /* Стрелка вправо */
 .slick-arrow.slick-next {
   right: 40%;
-  transform: translatey(-100%);
+  transform: translatex(-100%);
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled {
