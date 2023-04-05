@@ -931,19 +931,7 @@ header {
   position: relative;
   padding-bottom: 60px;
 }
-.reviews .swiper-container .swiper {
-  height: 460px;
-}
-@media screen and (max-width: 387px) {
-  .reviews .swiper-container .swiper {
-    height: 500px;
-  }
-}
-@media screen and (min-width: 744px) {
-  .reviews .swiper-container .swiper {
-    height: 100%;
-  }
-}
+
 .reviews .swiper-container .swiper-slide {
   border-radius: 16px;
   background-color: #fff;
@@ -952,7 +940,6 @@ header {
   align-items: center;
   flex-direction: column;
   gap: 16px;
-  height: calc((100% - 32px) / 3);
 }
 .reviews .swiper-container .swiper-slide h3 {
   text-align: center;
