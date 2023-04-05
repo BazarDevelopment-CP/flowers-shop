@@ -43,7 +43,7 @@ $calculator_text          = '';
         echo wp_kses_post( apply_filters( 'woocommerce_no_shipping_available_html', __( 'There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help.', 'woocommerce' ) ) );
     else :
         esc_html_e( 'No shipping options were found.', 'woocommerce' );
-        $calculator_text = esc_html__( 'Enter a different Change ZIP', 'woocommerce' );
+        $calculator_text = esc_html__( 'Enter a different ZIP', 'woocommerce' );
     endif;
     ?>
 
