@@ -965,7 +965,7 @@ header {
 }
 /* Слайд */
 .slick-slide {
-  margin: 0 5px;
+  margin: 0 8px;
 }
 /* Слайд активный (показывается) */
 .slick-slide.slick-active {
