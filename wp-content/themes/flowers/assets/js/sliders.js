@@ -1,27 +1,28 @@
-if ($(".home-works .swiper").length) {
-  const swiper = new Swiper(".home-works .swiper", {
-    slidesPerView: 1,
-    watchOverflow: true,
-    loop: true,
-    spaceBetween: 16,
-    navigation: {
-      nextEl: $(".home-works .swiper")
-        .closest(".swiper-container")
-        .find(".button-next")[0],
-      prevEl: $(".home-works .swiper")
-        .closest(".swiper-container")
-        .find(".button-prev")[0],
-    },
-    breakpoints: {
-      500: {
-        slidesPerView: 2,
-      },
-      744: {
-        slidesPerView: 3,
-      },
-    },
-  });
-}
+// if ($(".home-works .swiper").length) {
+//   const swiper = new Swiper(".home-works .swiper", {
+//     slidesPerView: 1,
+//     watchOverflow: true,
+//     loop: true,
+//     spaceBetween: 16,
+//     navigation: {
+//       nextEl: $(".home-works .swiper")
+//         .closest(".swiper-container")
+//         .find(".button-next")[0],
+//       prevEl: $(".home-works .swiper")
+//         .closest(".swiper-container")
+//         .find(".button-prev")[0],
+//     },
+//     breakpoints: {
+//       500: {
+//         slidesPerView: 2,
+//       },
+//       744: {
+//         slidesPerView: 3,
+//       },
+//     },
+//   });
+// }
+$(".slider").slick();
 if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
     slidesPerView: 1,
