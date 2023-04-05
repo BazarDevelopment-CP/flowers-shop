@@ -162,8 +162,8 @@
 
                 </div>
             </div>
-            <div class="button-next"><?php _e( 'Next') ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/RightW.svg" alt="arrow" /></div>
-            <div class="button-prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/LeftW.svg" alt="arrow" /><?php _e( 'Back' ) ?></div>
+            <div class="swipper-button-next"><?php _e( 'Next') ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/RightW.svg" alt="arrow" /></div>
+            <div class="swipper-button-prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/LeftW.svg" alt="arrow" /><?php _e( 'Back' ) ?></div>
         </div>
         <div class="photo-card">
             <img src="<?php echo wp_get_attachment_image_url( carbon_get_the_post_meta( 'home_reviews_image' ), 'full' )  ?>" alt="" />
