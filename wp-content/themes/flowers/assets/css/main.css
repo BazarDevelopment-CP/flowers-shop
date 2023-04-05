@@ -943,8 +943,11 @@ header {
   background-color: black;
   color: #fff;
 }
+/*-----------------------------------------------------------------------------------------------------------*/
 /* Слайдер */
 .slick-slider {
+  position: relative;
+  padding-bottom: 20px;
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized {
@@ -977,10 +980,11 @@ header {
 }
 /* Стрелка */
 .slick-arrow {
+  position: absolute;
+  bottom: 0;
 }
 /* Стрелка влево */
-.slick-arrow.slick-prev {
-}
+
 /* Стрелка вправо */
 .slick-arrow.slick-next {
 }
@@ -998,6 +1002,7 @@ header {
 /* Элемент точки */
 .slick-dots li button {
 }
+/*-----------------------------------------------------------------------------------------------------------*/
 .choose {
   background-color: #fff;
 }
