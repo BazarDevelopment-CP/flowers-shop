@@ -982,6 +982,7 @@ header {
 .slick-arrow {
   position: absolute;
   bottom: 0;
+  padding: 12px 24px;
 }
 /* Стрелка влево */
 .slick-arrow.slick-prev {
