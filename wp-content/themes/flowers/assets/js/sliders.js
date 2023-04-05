@@ -24,6 +24,8 @@
 // }
 $(".slider").slick({
   slidesToShow: 3,
+  autoplay: true,
+  autoplaySpeed: 2000,
 });
 if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
