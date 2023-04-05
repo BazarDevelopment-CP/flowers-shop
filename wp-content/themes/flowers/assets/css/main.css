@@ -947,7 +947,7 @@ header {
 /* Слайдер */
 .slick-slider {
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized {
@@ -981,7 +981,7 @@ header {
 /* Стрелка */
 .slick-arrow {
   position: absolute;
-  bottom: 50px;
+  bottom: 0;
 }
 /* Стрелка влево */
 .slick-arrow.slick-prev {
