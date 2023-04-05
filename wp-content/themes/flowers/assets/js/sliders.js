@@ -21,10 +21,8 @@ if ($(".home-works .swiper").length) {
 }
 if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
-    direction: "horizontal",
-    slidesPerView: 3,
-    slidesPerGroup: 3,
     loop: true,
+    spaceBetween: 16,
     navigation: {
       nextEl: $(".reviews .swiper")
         .closest(".swiper-container")
@@ -33,11 +31,11 @@ if ($(".reviews .swiper").length) {
         .closest(".swiper-container")
         .find(".button-prev")[0],
     },
-    // breakpoints: {
-    //   744: {
-    //     slidesPerView: 3,
-    //   },
-    // },
+    breakpoints: {
+      744: {
+        slidesPerView: 3,
+      },
+    },
   });
 }
 if ($(".gallery-swiper .swiper").length) {
