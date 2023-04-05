@@ -4,9 +4,9 @@ if ( ! wp_doing_ajax() ) {
 }
 ?>
 
-<li class="step-item woocommerce-checkout-payment">
+<li class="step-item woocommerce-checkout-payment" id="step-4">
     
-    <div class="step-top" id="step-4">
+    <div class="step-top" >
         <p class="step-num">4</p>
         <h2 class="section-title"><?php echo carbon_get_post_meta( wc_get_page_id( 'checkout' ), 'checkout_payment_title' ) ?></h2>
     </div>
