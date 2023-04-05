@@ -47,7 +47,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             <h2 class="section-title"><?php echo carbon_get_the_post_meta( 'checkout_gift_title' ) ?></h2>
         </div>
         
-        <div class="step-body hidden-step">
+        <div class="step-body">
             
             <p class="text">
                 <?php echo carbon_get_the_post_meta( 'checkout_gift_subtitle' ) ?>
