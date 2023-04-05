@@ -22,7 +22,9 @@
 //     },
 //   });
 // }
-$(".slider").slick();
+$(".slider").slick({
+  slidesToShow: 3,
+});
 if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
     slidesPerView: 1,
