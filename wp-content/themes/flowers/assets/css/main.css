@@ -981,12 +981,15 @@ header {
 /* Стрелка */
 .slick-arrow {
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
 }
 /* Стрелка влево */
-
+.slick-arrow.slick-prev {
+  left: 43%;
+}
 /* Стрелка вправо */
 .slick-arrow.slick-next {
+  right: 43%;
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled {
