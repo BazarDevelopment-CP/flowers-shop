@@ -32,8 +32,9 @@ class SOVA_Theme
 		wp_deregister_script( 'jquery' );
 		wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.6.1.min.js', [], false, true );
         wp_enqueue_script( 'swiper-bundle', 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js', [ 'jquery' ], false, true );
-        wp_enqueue_script( 'sliders', get_template_directory_uri() . '/assets/js/sliders.js', [ 'jquery' ], false, true );
         wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/js/slick.min.js', [ 'jquery' ], false, true );
+        wp_enqueue_script( 'sliders', get_template_directory_uri() . '/assets/js/sliders.js', [ 'jquery' ], false, true );
+        
         wp_enqueue_script( 'fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js', [ 'jquery' ], false, true );
         wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', [ 'jquery' ], false, true );
 	}
