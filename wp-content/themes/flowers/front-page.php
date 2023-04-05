@@ -160,7 +160,26 @@
         <p class="text">
             <?php echo carbon_get_the_post_meta( 'home_reviews_subtitle' ) ?>
         </p>
-        <div class="swiper-container">
+        <div class="slider-container">
+                <div class="slider">
+                    <?php
+                    $reviews = carbon_get_the_post_meta( 'home_reviews_items' );
+                    
+                    foreach ( $reviews as $review ): ?>
+                    <div class="swiper-slide">
+                        <h3><?php echo $review[ 'title' ] ?></h3>
+                        <p class="text"><?php echo $review[ 'text' ] ?></p>
+                        <ul class="rate-list">
+                            <?php for ( $i=0; $i < $review[ 'rating' ]; $i++ ): ?>
+                            <li class="rate-item"><img src="<?php echo get_template_directory_uri() ?>/assets/img/StarFilled.svg" alt="" /></li>
+                            <?php endfor ?>
+                        </ul>
+                    </div>
+                    <?php endforeach ?>
+                </div>
+            
+        </div>
+        <!-- <div class="swiper-container">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     
@@ -183,7 +202,7 @@
             </div>
             <div class="button-next"><?php _e( 'Next') ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/RightW.svg" alt="arrow" /></div>
             <div class="button-prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/LeftW.svg" alt="arrow" /><?php _e( 'Back' ) ?></div>
-        </div>
+        </div> -->
         <div class="photo-card">
             <img src="<?php echo wp_get_attachment_image_url( carbon_get_the_post_meta( 'home_reviews_image' ), 'full' )  ?>" alt="" />
         </div>
