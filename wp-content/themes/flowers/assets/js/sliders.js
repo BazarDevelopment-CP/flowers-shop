@@ -28,7 +28,13 @@ $(".slider").slick({
   autoplaySpeed: 2000,
   responsive: [
     {
-      breakpoint: 767,
+      breakpoint: 840,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 550,
       settings: {
         slidesToShow: 1,
       },
