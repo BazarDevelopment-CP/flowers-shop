@@ -21,7 +21,6 @@ if ($(".home-works .swiper").length) {
 }
 if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
-    slidesPerView: 1,
     loop: true,
     spaceBetween: 16,
     navigation: {
