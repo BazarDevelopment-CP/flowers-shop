@@ -769,15 +769,10 @@ header {
 .home-works .swiper {
   height: 1120px;
 }
-@media screen and (min-width: 744px) {
-  .home-works .swiper {
-    height: 100%;
-  }
-}
+
 .home-works .swiper-slide {
   background-color: #ffffff;
   border-radius: 16px;
-  height: calc((100% - 32px) / 3);
 }
 .home-works .swiper-slide img {
   display: block;
