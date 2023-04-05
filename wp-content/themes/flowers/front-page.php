@@ -82,8 +82,7 @@
                     </div>
                     <?php endforeach ?>
                 </div>
-            <div aria-label="Previous" class="button-next slick-prew slick-arrow"><?php _e( 'Next' ) ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/Right.svg" alt="arrow" /></div>
-            <div class="button-prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Left.svg" alt="arrow" /><?php _e( 'Back' ) ?></div>
+            
         </div>
         <!-- <div class="swiper-container">
             <div class="swiper">
