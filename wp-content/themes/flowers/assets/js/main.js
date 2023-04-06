@@ -65,8 +65,7 @@ $(document).ready(function() {
             .next("li")
             .find(".step-body")
             .removeClass("hidden-step");
-    })
-
+    });
     const radiobuttonsIni = () => {
         $.each($(".radiobuttons-item"), function(index, val) {
             if (
