@@ -24,7 +24,7 @@ Template Name: Gallery Page
     <div class="container">
         <h2 class="section-title"><?php echo carbon_get_the_post_meta( 'gallery_title' ) ?></h2>
         <div class="slider-container">
-                <div class="slider">
+                <div class="gallery-slider">
                 <?php
                     $gallery = carbon_get_the_post_meta( 'gallery_images' );
 

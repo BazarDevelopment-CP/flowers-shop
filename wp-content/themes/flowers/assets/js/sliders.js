@@ -41,6 +41,31 @@ $(".slider").slick({
     },
   ],
 });
+$(".gallery-slider").slick({
+  slidesToShow: 4,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 840,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 570,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 470,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+});
 if ($(".reviews .swiper").length) {
   const swiper = new Swiper(".reviews .swiper", {
     slidesPerView: 1,
