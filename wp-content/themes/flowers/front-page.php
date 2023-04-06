@@ -1,6 +1,7 @@
 <?php get_header( '', [ 'title' => get_the_title() ] ) ?>
 
     <main class="hero">
+    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/1.jpg);" class='bg'>
         <div class="slider-container">
             <div class="slider-banner">                
                 <div class="swiper-slide">
