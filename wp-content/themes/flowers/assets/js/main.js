@@ -148,6 +148,6 @@ $(document).bind('click', (e) => {
     $(document.body).trigger("update_checkout");
 })
 
-$(document).on('added_to_cart', (e) => {
+$(document).on('country_to_state_changed', (e) => {
     console.log('dd')
 })
