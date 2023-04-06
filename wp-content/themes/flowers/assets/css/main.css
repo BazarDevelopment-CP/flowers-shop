@@ -2414,6 +2414,7 @@ select {
   .order .order-left {
     width: 100%;
     border: none;
+    order: 2;
   }
   .order .order-right {
     width: 100%;
