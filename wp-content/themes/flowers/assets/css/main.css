@@ -2309,7 +2309,7 @@ select {
   position: sticky;
   top: 132px;
 }
-/* .order .cart-goods {
+.order .cart-goods {
   width: 100%;
 }
 @media screen and (max-width: 744px) {
@@ -2409,7 +2409,7 @@ select {
 .order .btn {
   margin-top: 25px;
   max-width: 150px;
-} */
+}
 .order .order-right {
   width: 50%;
   padding: 0 10px;
