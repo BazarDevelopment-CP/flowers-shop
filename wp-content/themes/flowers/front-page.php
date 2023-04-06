@@ -1,12 +1,10 @@
 <?php get_header( '', [ 'title' => get_the_title() ] ) ?>
-<img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Normal/1.jpg" alt="" class='bg'>
-<div class="button-next"><?php _e( 'Next') ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/RightW.svg" alt="arrow" /></div>
+
     <main class="hero">
-    
         <div class="slider-container">
             <div class="slider-banner">                
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>./assets/img/Banner/Compresed/1.jpg" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/1.jpg" class='bg'>
                 </div>
                 <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/2.jpg" class='bg'>
