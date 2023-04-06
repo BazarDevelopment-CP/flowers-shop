@@ -1038,13 +1038,13 @@ header {
   flex-direction: column;
   gap: 16px;
 }
-.choose .chose-list {
+.choose .choose-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
 }
-.choose .choose-item {
+.choose .chose-item {
   display: flex;
   flex-direction: column;
   gap: 10px;
