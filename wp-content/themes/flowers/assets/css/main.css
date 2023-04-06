@@ -1044,6 +1044,11 @@ header {
   justify-content: center;
   gap: 16px;
 }
+.choose .choose-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 @media screen and (max-width: 743px) {
   .choose .choose-list {
     flex-direction: column;
