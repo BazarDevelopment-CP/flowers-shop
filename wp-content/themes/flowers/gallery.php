@@ -23,7 +23,21 @@ Template Name: Gallery Page
 <section class="gallery-swiper">
     <div class="container">
         <h2 class="section-title"><?php echo carbon_get_the_post_meta( 'gallery_title' ) ?></h2>
-        <div class="swiper-container">
+        <div class="slider-container">
+                <div class="slider">
+                <?php
+                    $gallery = carbon_get_the_post_meta( 'gallery_images' );
+
+                    foreach ( $gallery as $image ): ?>
+                    <div class="swiper-slide">
+                        <img src="<?php echo wp_get_attachment_image_url( $image[ 'image' ], 'medium_large' ) ?>" alt="" />
+                        <p class="text"><?php echo $image[ 'title' ] ?></p>
+                    </div>
+                    <?php endforeach ?>
+                </div>
+            
+        </div>
+        <!-- <div class="swiper-container">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     
@@ -42,7 +56,7 @@ Template Name: Gallery Page
 
             <div class="button-next"><?php _e( 'Next' ) ?> <img src="<?php echo get_template_directory_uri() ?>/assets/img/RightW.svg" alt="arrow" /></div>
             <div class="button-prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/LeftW.svg" alt="arrow" /><?php _e( 'Back' ) ?></div>
-        </div>
+        </div> -->
     </div>
 </section>
 
