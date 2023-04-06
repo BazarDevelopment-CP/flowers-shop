@@ -1038,7 +1038,7 @@ header {
   flex-direction: column;
   gap: 16px;
 }
-.choose .choose-list {
+.choose .chose-list {
   display: flex;
   align-items: center;
   justify-content: center;
