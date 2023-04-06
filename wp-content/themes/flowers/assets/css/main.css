@@ -954,7 +954,7 @@ header {
   position: relative;
   padding-bottom: 50px;
 }
-.slider-banner .slick-slider {
+.hero .slick-slider {
   padding-bottom: 0 !important;
 }
 /* Слайдер запущен */
