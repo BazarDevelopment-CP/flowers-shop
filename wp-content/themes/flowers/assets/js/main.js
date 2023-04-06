@@ -143,11 +143,8 @@ $(document).ready(function() {
 //     }
 //   });
 // });
-$(document).bind('click', (e) => {
-    console.log(1)
-    $(document.body).trigger("update_checkout");
-})
 
-$(document).on('country_to_state_changed', (e) => {
+
+$(document).on('removed_from_cart', (e) => {
     console.log('dd')
 })
