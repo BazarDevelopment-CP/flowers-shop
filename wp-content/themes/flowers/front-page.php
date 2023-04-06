@@ -1,6 +1,15 @@
 <?php get_header( '', [ 'title' => get_the_title() ] ) ?>
 
-<main class="hero" style="background-image: url('<?php echo wp_get_attachment_image_url( carbon_get_the_post_meta( 'home_top_bgimage' ), 'full' ) ?>')">
+    <main class="hero">
+        <div class="slider-container">
+            <div class="slider-banner">                
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url(../img/Banner/Compresed/1.jpg);"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- <main class="hero" style="background-image: url('<?php echo wp_get_attachment_image_url( carbon_get_the_post_meta( 'home_top_bgimage' ), 'full' ) ?>')">
 
 <div class="container">
         <h1 class="hero-title"><?php echo carbon_get_the_post_meta( 'home_top_title' ) ?></h1>
@@ -12,7 +21,7 @@
             <a href="#contact-us" class="btn"><?php _e( 'Ask a question' ) ?></a>
         </div>
     </div>
-</main>
+</main> -->
 
 <section class="advantages">
     <div class="container">
