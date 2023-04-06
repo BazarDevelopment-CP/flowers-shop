@@ -43,13 +43,13 @@ $(document).ready(function () {
   });
   $(".category").click(function (event) {
     $(".sort-list").removeClass("active");
-    $(".sort").closest("div").find("img").toggleClass("active");
+    $(".sort").closest("div").find("img").removeClass("active");
     $(".category-list").toggleClass("active");
     $(this).closest("div").find("img").toggleClass("active");
   });
   $(".sort").click(function (event) {
     $(".category-list").removeClass("active");
-    $(".category").closest("div").find("img").toggleClass("active");
+    $(".category").closest("div").find("img").removeClass("active");
     $(".sort-list").toggleClass("active");
     $(this).closest("div").find("img").toggleClass("active");
   });
