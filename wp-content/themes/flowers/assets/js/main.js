@@ -59,13 +59,13 @@ $(document).ready(function () {
     $(this).toggleClass("select");
     $(".options-btn span").text($(".select").text());
   });
-  // $(".step-body .btn").click(function (event) {
-  //   $(this)
-  //     .closest("li")
-  //     .next("li")
-  //     .find(".step-body")
-  //     .removeClass("hidden-step");
-  // });
+  $(".step-body .btn").click(function (event) {
+    $(this)
+      .closest("li")
+      .next("li")
+      .find(".step-body")
+      .removeClass("hidden-step");
+  });
 
   const radiobuttonsIni = () => {
     $.each($(".radiobuttons-item"), function (index, val) {
