@@ -1010,6 +1010,8 @@ header {
   right: 49%;
   transform: translatex(100%);
   background-image: url("../img/Right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled {
