@@ -2279,6 +2279,10 @@ select {
   border-right: 1px solid rgb(190, 190, 190);
   padding-right: 10px;
 }
+.order .order-left ul {
+  position: sticky;
+  top: 132px;
+}
 .order .cart-goods {
   width: 100%;
 }
