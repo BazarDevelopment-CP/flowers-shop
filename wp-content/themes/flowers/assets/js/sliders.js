@@ -70,6 +70,7 @@ $(document).ready(function () {
   $(".slider-banner").slick({
     slidesToShow: 1,
     autoplay: true,
+    arrows: false,
     autoplaySpeed: 2500,
   });
   if ($(".reviews .swiper").length) {
