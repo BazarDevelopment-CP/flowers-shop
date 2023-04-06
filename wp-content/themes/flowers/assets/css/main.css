@@ -955,7 +955,7 @@ header {
   padding-bottom: 50px;
 }
 .slider-banner .slick-slider {
-  padding: 0;
+  padding-bottom: 0 !important;
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized {
