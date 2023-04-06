@@ -5,19 +5,19 @@
         <div class="slider-container">
             <div class="slider-banner">                
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/1.jpg);" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/1.jpg);" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/2.jpg);" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/2.jpg);" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/3.jpg);" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/3.jpg);" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/4.jpg);" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/4.jpg);" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/robert-hoffmann-0nulATHut58-unsplash.jpg);" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/robert-hoffmann-0nulATHut58-unsplash.jpg);" class='bg'>
                 </div>
             </div>
         </div>
