@@ -673,6 +673,9 @@ header {
 .hero {
   position: relative;
 }
+.hero .slider-banner .swiper-slide {
+  background-color: #0000001b;
+}
 .hero .container {
   position: absolute;
   top: 50%;
