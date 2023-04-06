@@ -147,3 +147,7 @@ $(document).bind('click', (e) => {
     console.log(1)
     $(document.body).trigger("update_checkout");
 })
+
+$(document).on('added_to_cart', (e) => {
+    console.log('dd')
+})
