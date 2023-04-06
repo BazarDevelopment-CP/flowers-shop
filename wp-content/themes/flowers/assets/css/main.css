@@ -997,6 +997,7 @@ header {
   padding: 12px 24px;
   border-radius: 36px;
   background-color: #fff;
+  font-size: 0;
 }
 /* Стрелка влево */
 .slick-arrow.slick-prev {
