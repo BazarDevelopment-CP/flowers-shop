@@ -71,7 +71,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     autoplay: true,
     arrows: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3500,
   });
   if ($(".reviews .swiper").length) {
     const swiper = new Swiper(".reviews .swiper", {
