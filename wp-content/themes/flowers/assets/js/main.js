@@ -143,8 +143,3 @@ $(document).ready(function() {
 //     }
 //   });
 // });
-
-
-$(document).on('removed_from_cart', (e) => {
-    console.log('dd')
-})
