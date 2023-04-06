@@ -1003,11 +1003,13 @@ header {
 .slick-arrow.slick-prev {
   left: 49%;
   transform: translatex(-100%);
+  background-image: url("<?php echo get_template_directory_uri() ?>/assets/img/3.jpg");
 }
 /* Стрелка вправо */
 .slick-arrow.slick-next {
   right: 49%;
   transform: translatex(100%);
+  background-image: url("../img/Right.svg");
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled {
