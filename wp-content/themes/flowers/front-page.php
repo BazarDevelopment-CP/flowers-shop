@@ -6,6 +6,15 @@
                 <div class="swiper-slide">
                     <div class="banner" style="background-image: url(../img/Banner/Compresed/1.jpg);"></div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url(../img/Banner/Compresed/2.jpg);"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url(../img/Banner/Compresed/3.jpg);"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner" style="background-image: url(../img/Banner/Compresed/4.jpg);"></div>
+                </div>
             </div>
         </div>
     </main>
