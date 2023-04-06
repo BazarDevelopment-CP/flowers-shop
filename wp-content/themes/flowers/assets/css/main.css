@@ -674,7 +674,7 @@ header {
   position: relative;
 }
 .hero .slider-banner .swiper-slide {
-  background-color: #0000001b;
+  background-color: #0000001b !important;
 }
 .hero .container {
   position: absolute;
