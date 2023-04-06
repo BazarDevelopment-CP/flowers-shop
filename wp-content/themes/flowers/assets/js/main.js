@@ -48,6 +48,7 @@ $(document).ready(function () {
   });
   $(".sort").click(function (event) {
     $(".category-list").removeClass("active");
+    $(".category").closest("div").find("img").toggleClass("active");
     $(".sort-list").toggleClass("active");
     $(this).closest("div").find("img").toggleClass("active");
   });
