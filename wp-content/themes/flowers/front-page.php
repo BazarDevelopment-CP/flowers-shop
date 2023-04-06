@@ -1,5 +1,5 @@
 <?php get_header( '', [ 'title' => get_the_title() ] ) ?>
-<img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Normal/1.jpg" class='bg'>
+<img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Normal/1.jpg" alt="" class='bg'>
     <main class="hero">
     
         <div class="slider-container">
