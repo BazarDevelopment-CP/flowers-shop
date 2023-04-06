@@ -4,7 +4,7 @@
         <h2 class="section-title"><?php echo carbon_get_post_meta( wc_get_page_id( 'checkout' ), 'checkout_shipping_title' ) ?></h2>
     </div>
 
-    <div class="step-body">
+    <div class="step-body hidden-step">
 
         <p class="text">
             <?php echo carbon_get_post_meta( wc_get_page_id( 'checkout' ), 'checkout_shipping_subtitle' ) ?>
