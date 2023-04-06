@@ -2289,6 +2289,14 @@ select {
 .order .container {
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .order .container {
+    flex-direction: column;
+  }
+  .order .order-left {
+    width: 100%;
+  }
+}
 .order .order-left {
   width: 50%;
   display: flex;
@@ -2301,7 +2309,7 @@ select {
   position: sticky;
   top: 132px;
 }
-.order .cart-goods {
+/* .order .cart-goods {
   width: 100%;
 }
 @media screen and (max-width: 744px) {
@@ -2401,7 +2409,7 @@ select {
 .order .btn {
   margin-top: 25px;
   max-width: 150px;
-}
+} */
 .order .order-right {
   width: 50%;
   padding: 0 10px;
