@@ -2289,14 +2289,7 @@ select {
 .order .container {
   display: flex;
 }
-@media screen and (max-width: 768px) {
-  .order .container {
-    flex-direction: column;
-  }
-  .order .order-left {
-    width: 100%;
-  }
-}
+
 .order .order-left {
   width: 50%;
   display: flex;
@@ -2413,6 +2406,18 @@ select {
 .order .order-right {
   width: 50%;
   padding: 0 10px;
+}
+@media screen and (max-width: 768px) {
+  .order .container {
+    flex-direction: column;
+  }
+  .order .order-left {
+    width: 100%;
+    border: none;
+  }
+  .order .order-right {
+    width: 100%;
+  }
 }
 .order .order-right .step-item {
   display: flex;
