@@ -4,19 +4,32 @@
         <div class="slider-container">
             <div class="slider-banner">                
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url(<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/1.jpg); height: 700px;"></div>
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/1.jpg);">
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url(../img/Banner/Compresed/2.jpg);"></div>
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/2.jpg);">
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url(../img/Banner/Compresed/3.jpg);"></div>
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/3.jpg);">
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner" style="background-image: url(../img/Banner/Compresed/4.jpg);"></div>
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/4.jpg);">
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri() ?>assets/img/Banner/Compresed/robert-hoffmann-0nulATHut58-unsplash.jpg);">
                 </div>
             </div>
         </div>
+        <div class="container">
+        <h1 class="hero-title"><?php echo carbon_get_the_post_meta( 'home_top_title' ) ?></h1>
+        <p class="text">
+            <?php echo carbon_get_the_post_meta( 'home_top_subtitle' ) ?>
+        </p>
+        <div class="hero-btn">
+            <a href="<?php the_permalink( wc_get_page_id( 'shop' ) ) ?>" class="btn"><?php _e( 'Look at the products' ) ?></a>
+            <a href="#contact-us" class="btn"><?php _e( 'Ask a question' ) ?></a>
+        </div>
+    </div>
     </main>
 <!-- <main class="hero" style="background-image: url('<?php echo wp_get_attachment_image_url( carbon_get_the_post_meta( 'home_top_bgimage' ), 'full' ) ?>')">
 

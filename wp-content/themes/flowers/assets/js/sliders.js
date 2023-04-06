@@ -67,6 +67,11 @@ $(document).ready(function () {
       },
     ],
   });
+  $(".slider-banner").slick({
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+  });
   if ($(".reviews .swiper").length) {
     const swiper = new Swiper(".reviews .swiper", {
       slidesPerView: 1,
