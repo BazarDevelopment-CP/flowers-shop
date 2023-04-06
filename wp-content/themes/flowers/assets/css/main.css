@@ -675,6 +675,7 @@ header {
 }
 .hero .banner {
   background-color: #000000;
+  z-index: 2;
 }
 .hero .container {
   position: absolute;
