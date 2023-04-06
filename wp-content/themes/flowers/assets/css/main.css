@@ -670,9 +670,7 @@ header {
   width: 100%;
   object-fit: cover;
 }
-.hero {
-  padding: 108px 0;
-}
+
 .hero .container {
   display: flex;
   flex-direction: column;
