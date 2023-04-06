@@ -7,16 +7,16 @@
                     <img src="<?php echo get_template_directory_uri() ?>/assets/img/1.jpg" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/2.jpg" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/2.jpg" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/3.jpg" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/3.jpg" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/4.jpg" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/4.jpg" class='bg'>
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/Banner/Compresed/robert-hoffmann-0nulATHut58-unsplash.jpg" class='bg'>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/robert-hoffmann-0nulATHut58-unsplash.jpg" class='bg'>
                 </div>
             </div>
         </div>
