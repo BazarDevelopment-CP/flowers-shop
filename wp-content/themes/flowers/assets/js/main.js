@@ -60,6 +60,7 @@ $(document).ready(function () {
   $(".variation-item").click(function (event) {
     $(this).closest("ul").find(".variation-item").removeClass("select");
     // $(".variation-item").removeClass("select");
+    $(".variation-list").removeClass("active");
     $(this).toggleClass("select");
     $(".options-btn span").text($(".select").text());
   });
