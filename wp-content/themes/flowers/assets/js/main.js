@@ -16,17 +16,21 @@ if (forms.length) {
         });
     });
 }
-const anchors = document.querySelectorAll('a[href*="#"]');
-for (let anchor of anchors) {
-    anchor.addEventListener("click", function(event) {
-        event.preventDefault();
-        const blockID = anchor.getAttribute("href");
-        document.querySelector("" + blockID).scrollIntoView({
-            behavior: "smooth",
-            block: "center",
+const anchorsIni = () => {
+    const anchors = document.querySelectorAll('a[href*="#"]');
+    for (let anchor of anchors) {
+        anchor.addEventListener("click", function(event) {
+            event.preventDefault();
+            const blockID = anchor.getAttribute("href");
+            document.querySelector("" + blockID).scrollIntoView({
+                behavior: "smooth",
+                block: "center",
+            });
         });
-    });
+    }
 }
+anchorsIni();
+$(document).on("DOMSubtreeModified", anchorsIni);
 $(document).ready(function() {
     $(".header-burger").click(function(event) {
         $(".header-nav").toggleClass("active");
