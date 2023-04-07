@@ -133,6 +133,53 @@ $(document).ready(function() {
     $(document).on("change", "input[name=billing_postcode]", function(e) {
         $(document.body).trigger("update_checkout");
     });
+}; radiobuttonsIni(); $(document).on("DOMSubtreeModified", radiobuttonsIni); $(document).on("click", ".radiobuttons-item", function(event) {
+    $(this)
+        .parents("#shipping_method")
+        .find(".radiobuttons-item")
+        .removeClass("check");
+    $(this)
+        .parents("#shipping_method")
+        .find(".radiobuttons-item input[type=radio]")
+        .prop("checked", false);
+    $(this).toggleClass("check");
+    $(this).find("input[type=radio]").prop("checked", true);
+    $(this).find("input[type=radio]").trigger("change");
+    return false;
+});
+// change quantity
+$(document).on("click", ".change-quantity", function(e) {
+    let currentItem = $(this).closest(".quantity");
+    let quantityInput = currentItem.find(".input-quantity");
+    let quantity = parseInt(quantityInput.val());
+    let newQuantity = 0;
+    if ($(this).hasClass("plus")) {
+        newQuantity = quantity + 1;
+    }
+    if ($(this).hasClass("minus")) {
+        newQuantity = quantity == 0 ? quantity : quantity - 1;
+    }
+    quantityInput.attr("value", newQuantity);
+    currentItem.find(".amount").text(newQuantity);
+    if ($("[name=update_cart]").length) {
+        $("[name=update_cart]").prop({ disabled: false, "aria-disabled": false });
+        $("[name=update_cart]").trigger("click");
+    }
+});
+// choose variation
+$(".variations_form .variation-item").on("click", function(e) {
+    let variatName = $(this).closest(".variation-list").attr("data-name");
+    let variatSelect = $(`select[name=${variatName}]`);
+    variatSelect.find("option").removeProp("selected");
+    variatSelect
+        .find(`option[value='${$(this).attr("data-value")}']`)
+        .prop("selected", "selected");
+    variatSelect.trigger("change");
+});
+// update checkout
+$(document).on("change", "input[name=billing_postcode]", function(e) {
+    $(document.body).trigger("update_checkout");
+});
 });
 
 // const filterSlide = document.querySelectorAll(".swiper-slide");
