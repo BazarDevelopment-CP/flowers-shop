@@ -27,6 +27,7 @@ for (let anchor of anchors) {
         });
     });
 }
+<<<<<<< HEAD
 $(document).ready(function() {
     $(".header-burger").click(function(event) {
         $(".header-nav").toggleClass("active");
@@ -128,6 +129,59 @@ $(document).ready(function() {
     // update checkout
     $(document).on("change", "input[name=billing_postcode]", function(e) {
         $(document.body).trigger("update_checkout");
+=======
+$(document).ready(function () {
+  $(".header-burger").click(function (event) {
+    $(".header-nav").toggleClass("active");
+    $(".header-burger").toggleClass("active");
+  });
+  $(".guestion-item").click(function (event) {
+    // $(".answer").toggleClass("open");
+    $(this).closest("li").find(".answer").toggleClass("open");
+    $(this).closest("li").find("img").toggleClass("open");
+  });
+  $(".description-top").click(function (event) {
+    $(".description-body").toggleClass("open");
+    $(".description-top").find("img").toggleClass("open");
+  });
+  $(".category").click(function (event) {
+    $(".sort-list").removeClass("active");
+    $(".sort").closest("div").find("img").removeClass("active");
+    $(".category-list").toggleClass("active");
+    $(this).closest("div").find("img").toggleClass("active");
+  });
+  $(".sort").click(function (event) {
+    $(".category-list").removeClass("active");
+    $(".category").closest("div").find("img").removeClass("active");
+    $(".sort-list").toggleClass("active");
+    $(this).closest("div").find("img").toggleClass("active");
+  });
+  $(".options-btn").click(function (event) {
+    $(this).closest("tr").find(".variation-list").toggleClass("active");
+    $(this).find("img").toggleClass("active");
+  });
+  $(".variation-item").click(function (event) {
+    $(this).closest("ul").find(".variation-item").removeClass("select");
+    $(".variation-list").removeClass("active");
+    $(this).toggleClass("select");
+    $(".options-btn span").text($(".select").text());
+  });
+  $(document).on("click", ".step-body .btn", function (event) {
+    $(this)
+      .closest("li")
+      .next("li")
+      .find(".step-body")
+      .removeClass("hidden-step");
+  });
+  const radiobuttonsIni = () => {
+    $.each($(".radiobuttons-item"), function (index, val) {
+      if (
+        $(this).find("input[type=radio]").prop("checked") == true ||
+        $(this).find("input[type=hidden]").length
+      ) {
+        $(this).addClass("check");
+      }
+>>>>>>> 9a4f692 (change)
     });
 });
 
